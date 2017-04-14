@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/index/index",
+    "pages/schedule/schedule",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "日程管理",
     "navigationBarTextStyle":"black"
   }
 }

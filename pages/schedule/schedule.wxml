@@ -1,0 +1,32 @@
+<view class="schedule">
+    <view class="title1">
+        日程表
+    </view>
+    <view class="content">  
+        <view style="flex:1;width:720rpx;background-color:white">7:00AM 起床</view>  
+        <view style="flex:1;width:720rpx;background-color:white">8:00AM 上午上课</view>  
+        <view style="flex:1;width:720rpx;background-color:white">11:25AM 放学</view>  
+        <view style="flex:1;width:720rpx;background-color:white">2:00PM 下午上课</view>  
+    </view>  
+    <view class="list">
+        <view class="button">
+            <view class="item orange">添加</view>
+            <view class="item orange">删除</view>
+        </view>
+    </view>
+     <view class="title2">
+        标题
+    </view>
+    <view class="content1">
+        <input placeholder="请输入标题" focus="{{focus}}" />
+    </view>
+    <view class="text">
+        内容
+    </view>
+    <view class="content2">
+        <form bindsubmit="bindFormSubmit">
+            <textarea placeholder="请在此输入内容" name="textarea"/>
+        <button form-type="submit" class="submit"> 提交 </button>
+        </form>
+    </view>
+</view>
